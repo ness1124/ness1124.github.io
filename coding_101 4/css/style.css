@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower&display=swap');
+
+body {
+  background-color: #e6e6e6;
+  color: black;
+  background-image: url(https://images.unsplash.com/photo-1568786608739-20363b351011?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Chilanka', cursive;
+  background-color: pink;
+  border: 3px solid blue;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+h1:hover {
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+ul {
+  font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+}
+
+#first-list {
+  background-color: lime;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+}
+
+.birds {
+  color: blue;
+  font-style: italic;
+}
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+}
+
+#first-list li {
+  display: inline-block;
+  margin: 30px;
+}
+
+img {
+  display: block;
+  width: 600px;
+  margin: 20px auto;
+}
